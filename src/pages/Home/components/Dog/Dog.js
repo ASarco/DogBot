@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from 'react-lottie'
-import animationDog from 'src/pages/Home/components/Dog/Dog.json'
+import animationDog from './Sabueso.json'
 import './Dog.css'
 
 const Dog = ({history}) => {
@@ -19,7 +19,6 @@ const Dog = ({history}) => {
     return (
         <div onClick={handleOnClick} className='dog-container'>
             <Lottie options={defaultOptions} />
-            <label>Hola Humano!</label>
         </div>
     )
 }
