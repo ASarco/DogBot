@@ -1,0 +1,28 @@
+.dog-item-container {
+    display: flex;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.dog-item-container img {
+    height: 40px;
+}
+
+.dog-item-container label {
+    margin: 0 0 5px 10px;
+    font-size: 14px;
+    color: white;
+    background: #432b51;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.dog-item-messages {
+    display: flex;
+    flex-direction: column;
+}

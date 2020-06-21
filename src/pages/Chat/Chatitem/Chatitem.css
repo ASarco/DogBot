@@ -1,0 +1,57 @@
+.user-item-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.user-item-container img {
+    height: 40px;
+}
+
+.user-item-container label {
+    margin: 0 10px 5px 0;
+    font-size: 14px;
+    color: white;
+    background: #e08b97;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.user-item-messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.dog-item-container {
+    display: flex;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.dog-item-container img {
+    height: 40px;
+}
+
+.dog-item-container label {
+    margin: 0 0 5px 10px;
+    font-size: 14px;
+    color: white;
+    background: #432b51;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.dog-item-messages {
+    display: flex;
+    flex-direction: column;
+}

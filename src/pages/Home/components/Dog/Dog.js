@@ -17,8 +17,10 @@ const Dog = ({history}) => {
     }
 
     return (
-        <div onClick={handleOnClick} className='dog-container'>
-            <Lottie options={defaultOptions} />
+        <div className='dog-container'>
+            <div onClick={handleOnClick} className='dog-content'>
+                <Lottie options={defaultOptions}/>
+            </div>
         </div>
     )
 }
