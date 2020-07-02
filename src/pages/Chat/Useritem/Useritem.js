@@ -8,7 +8,7 @@ const Useritem = ({text}) => {
             <div className="user-item-messages">
                 {
                     text.map((t, index) =>
-                        <label >{t} </label>
+                        <label key={index}>{t} </label>
                     )
                 }
             </div>

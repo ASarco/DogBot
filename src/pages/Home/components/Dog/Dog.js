@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from 'react-lottie'
-import animationDog from './Sabueso.json'
+import animationDog from './Salchicha.json'
 import './Dog.css'
 
 const Dog = ({history}) => {

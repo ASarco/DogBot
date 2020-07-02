@@ -1,6 +1,6 @@
 import React from "react";
 import './Dogitem.css';
-import dogAvatar from '../../../assets/images/avatar.jpeg';
+import dogAvatar from '../../../assets/images/salchichita.png';
 
 const Dogitem = ({text}) => {
     return (
@@ -9,7 +9,7 @@ const Dogitem = ({text}) => {
             <div className="dog-item-messages">
                 {
                     text.map((t, index) =>
-                            <label >{t} </label>
+                            <label key={index}>{t} </label>
                     )
                 }
             </div>
